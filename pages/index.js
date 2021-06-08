@@ -1,5 +1,20 @@
+import  Header  from '../componentes/Header'
+import Main from '../componentes/Main'
 function  Home () {
-    return <div>home2</div>
+   
+    return ( 
+        <div>
+            <Header/>
+            <Main/>
+
+            <style jsx global>{`
+                body {
+                    margin:0;
+                    padding:0;
+                }
+            `}</style>
+        </div>
+    )
 }
 
 export default Home

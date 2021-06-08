@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 20vh;
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    display: flex;
+    height: 15vh;
+    justify-self: center;
+    letter-spacing: 5px;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.headerConteiner{
+    display: flex;
+    height: 5vh;
+}
+
+.headerConteiner a {
+    color: white;
+    text-decoration: none;
+}
+.headerConteiner ul{
+    display: flex;
+    margin: 0;
+    padding: 0%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    width: 100vw;
+
+}
+.headerConteiner li{
+    list-style: none;
+}
