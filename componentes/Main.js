@@ -3,7 +3,7 @@ function Main (){
     return (
         <div className={style.conteiner}>
             <div className={style.img}>
-                <img></img>
+                
             </div>
             <div className={ style.about}>
                 <h1>VICTOR </h1>
