@@ -1,22 +1,17 @@
 import  Header  from '../componentes/Header'
 import Main from '../componentes/Main'
 import Habilit from '../componentes/Habilities'
-function  Home () {
-   
-    return ( 
-        <div>
-            <Header/>
-            <Main/>
-            <Habilit/>
+import Port from '../componentes/portifolio'
 
-            <style jsx global>{`
-                body {
-                    margin:0;
-                    padding:0;
-                }
-            `}</style>
-        </div>
-    )
+export default function Home() {
+  return ( 
+    <div>
+        <Header/>
+        <Main/>
+        <Habilit/>
+        <Port/>
+
+    </div>
+  )
+  s
 }
-
-export default Home
