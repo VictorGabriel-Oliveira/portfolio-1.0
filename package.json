@@ -6,7 +6,7 @@
   "author": "victor gabriel <victorgabrielgo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev":"next dev"
+    "dev": "next dev"
   },
   "dependencies": {
     "next": "^10.2.3",
