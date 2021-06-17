@@ -1,10 +1,67 @@
 import Image from "next/image"
 import style from "../styles/blogr.module.css"
 
-export default function room (){
-    function menuclick(){
+export default function blogr (){
+
+    function menuOnClick(event){
+        const iten = event.target.id
+        const list = document.getElementById('list')
+        const menuIten = document.getElementById(iten)
+        const closeIten = document.getElementById(style.closeDiv)
+        
+        closeIten.style.display = 'block'
+        menuIten.style.display = 'none'
+        list.style.display ='block'
+       
+        }
+    
+    function productItens(){
+        const product_itens = document.getElementById(style.productList)
+
+        if(product_itens.style.display === 'block'){
+            product_itens.style.display = 'none'
+        }else{
+            product_itens.style.display = 'block'
+            
+        }
         
     }
+    
+    
+    function companyItens(){
+        const company_itens = document.getElementById(style.companyList)
+        if(company_itens.style.display === 'block'){
+            company_itens.style.display = 'none'
+        }else{
+            company_itens.style.display = 'block'
+        }
+        
+    }
+    
+    function connectItens(){
+        const connect_itens = document.getElementById(style.connectList)
+        if(connect_itens.style.display === 'block'){
+            connect_itens.style.display = 'none'
+        }else{
+            connect_itens.style.display = 'block'
+        }
+        
+    }
+    
+    
+    
+    function closeOnClick(){
+        
+        const list = document.getElementById('list')
+        const menuIten = document.getElementById(style.menu)
+        const closeIten = document.getElementById(style.closeDiv)
+    
+        menuIten.style.display ='block'
+        list.style.display ='none'
+        closeIten.style.display='none'
+    }
+    
+
     return (
         <div className={style.conteiner}>
 
@@ -14,17 +71,29 @@ export default function room (){
                 <div className={style.firstHeader}>
 
                     <div className={style.headerimg}>
-                        <Image  src="/logo.svg" height="60" width="60"/>
-                        <div id={style.logo}>
-                            <Image onClick={menuclick()} src="/icon-hamburger.svg" height="60" width="60"/>
+                        <Image  src="/blogr/logo.svg" height="60" width="90"/>
+                        <div id={style.menuDiv}>
+                            <Image id={style.menu}onClick={(item) =>{
+                                menuOnClick(item)
+                            }} src="/blogr/icon-hamburger.svg" height="60" width="60"/>
+                        </div>
+                        <div id={style.closeDiv}>
+                            <Image id={style.close}onClick={(item) =>{
+                                closeOnClick(item)
+                            }} src="/blogr/icon-close." height="60" width="60"/>
                         </div>
                         
                     </div>
                     
-                    <div id={style.list}>
+                    <div className={style.list} >
                         
                         <div className={style.listItens} >
-                            <p id={style.productp} onclick="productItens()">Product <Image src="/icon-arrow-light.svg" width="10px" height="10px"/> </p>
+                            <div className={style.listItensContein}> 
+                                <p id={style.productp} onClick={productItens}>Product  </p> 
+                                <Image src="/blogr/icon-arrow-light.svg" width="10" height="10"/>
+                            </div>
+                           
+
                             
                             <ul id={style.productList}>
                                 <li>Overview</li>
@@ -36,7 +105,11 @@ export default function room (){
                         </div>
                         
                         <div className={style.listItens} >
-                            <p id={style.productp} onclick="companyItens()">Company <Image src="/icon-arrow-light.svg" width="10px" height="10px"/>  </p>
+                            <div className={style.listItensContein}>
+                                <p id={style.productp} onClick={companyItens}>Company   </p> 
+                                <Image src="/blogr/icon-arrow-light.svg" width="10" height="10"/>
+                            </div>
+
                             <ul id={style.companyList}>
 
                                 <li >About</li>
@@ -48,7 +121,11 @@ export default function room (){
                         </div>
 
                         <div className={style.listItens} >
-                            <p id={style.productp} onclick="connectItens()">Connect <Image src="/icon-arrow-light.svg" width="10px" height="10px"/> </p>
+                            <div className={style.listItensContein}>
+                                <p id={style.productp} onClick={connectItens}>Connect  </p>
+                                <Image src="/blogr/icon-arrow-light.svg" width="10" height="10"/>
+                            </div>
+                            
                             <ul id={style.connectList}>
 
                                 <li>Contact</li>
@@ -108,7 +185,7 @@ export default function room (){
                 </div>
                 
                 <div id={style.illustrationEditorDesktop}>
-                    <Image src="/illustration-editor-desktop.svg" height="700" width="650"/>
+                    <Image src="/blogr/illustration-editor-desktop.svg" height="700" width="650"/>
                 </div>
                 
            
@@ -117,7 +194,7 @@ export default function room (){
             <div className={style.secondContent}>
                 <div id={style.phones}>
                     <div id={style.illustrationPhones}>
-                        <Image src="/illustration-phones.svg" height="400px" width="400"/>
+                        <Image src="/blogr/illustration-phones.svg" height="400px" width="400"/>
                     </div>
                     <div className={style.phoneText}>
                         <h2>
@@ -135,8 +212,9 @@ export default function room (){
             
             <div className={style.trirdContent}>
                 <div className={style.img}>
-                <div id={style.t}></div>
-                    <Image style="transform: translate(-28%);"src="/illustration-laptop-desktop.svg" height="500" width="600"/>
+                <div id={style.t}>
+                    <Image src="/blogr/illustration-laptop-desktop.svg" height="500" width="600"/>
+                </div>
                 
                 </div>
                 <div className={style.sections}>
@@ -168,7 +246,7 @@ export default function room (){
 
         <div className={style.footer}>
             <div id={style.footerImg}>
-                <Image  src="/logo.svg" height="60" width="60"/>
+                <Image  src="/blogr/logo.svg" height="60" width="90"/>
             </div>
 
             <section>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap');
 
 .conteiner{
     display: flex;
@@ -5,6 +6,7 @@
     justify-content: center;
     align-items: center;
     background-color: #fafafa;
+    font-family: Spartan;
     
 }
 .header{
@@ -21,7 +23,7 @@
 .headerConteiner{
    
     background: transparent;
-    background-image: url('../public/bg-pattern-intro.svg');
+    background-image: url('../public/blogr/bg-pattern-intro.svg');
     background-size:cover; 
     background-repeat: no-repeat;
     background-position:right;
@@ -30,10 +32,10 @@
 }
 
 .firstHeader{
-     display: flex;
+    display: flex;
 
-     justify-content: space-evenly;
-     margin :10px;
+    justify-content: space-evenly;
+    margin :10px;
 }
 
 
@@ -48,18 +50,36 @@
     display: none;
 }
 
-#menu{
+#menuDiv{
     display: none;
 }
 
-#close{
+#closeDiv{
     display: none;
 }
 
-#list{
+.list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 50rem;
+}
+
+.listItensContein{
+    display: flex;
+    align-items: center;
+}
+.listItensContein p {
+    margin-right: 5px !important;
+    
+}
+.listItensContein img{
+    height:   10px  !important ;
+    width:  10px  !important ;
+    min-width: 0  !important ;
+    max-width: 100%;
+    min-height: 0  !important ;
+    max-height: 100%;
+    
 }
 
 #productList{
@@ -70,8 +90,9 @@
     border-radius: 5%;
     padding: 5px;
     text-align: center;
-    width: 7rem;
+    width: 9rem;
     position: fixed;
+    
     
 }
 #companyList{
@@ -83,8 +104,9 @@
     padding: 5px;
     text-align: center;
     
-    width: 7rem;
+    width: 9rem;
     position: fixed;
+    
 }
 
 #connectList{
@@ -97,13 +119,23 @@
     text-align: center;
     align-content: center;
     
-    width: 7rem;
+    
+    width: 9rem;
     
     position: fixed;
 }
 
-.productList li:hover{
+#productList li:hover{
     font-weight: bold;
+    cursor: pointer;
+}
+#companyList li:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+#connectList li:hover{
+    font-weight: bold;
+    
     cursor: pointer;
 }
 .btn{
@@ -129,18 +161,18 @@
 #listItens{
     position: relative;
 }
-#list{
+.list{
     display: flex;
     color: white;
     justify-items: center;
 }
 
 
-#list p {
+.list p {
     margin: 20px;
     
 }
-#list p:hover{
+.list p:hover{
     color: #dde0f7;
     cursor: pointer;
     
@@ -249,7 +281,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: 300px;
-    background-image: url('../public/bg-pattern-circles.svg');
+    background-image: url('../public/blogr/bg-pattern-circles.svg');
     background-repeat: no-repeat;
     background-position-y: -500px;
     background-position-x: left;
@@ -299,27 +331,28 @@
     height: 250px;
     justify-content: space-evenly;
     color: #fafafa;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-top-right-radius: 40px;
 }
-.footer ul{
-    display: flex;
-    flex-direction: column;
+.footer section{
+    text-align: end;
     
     
     
 }
 .footer h3{
-    text-align: center;
+    
 }
 .footer li{
     list-style: none;
-    margin-right: 10px;
+    
+    width: 70px;
+    
 }
 
 .footer li:hover{
     cursor: pointer;
     font-weight: bold;
+    
 }
 
 #footerImg{
@@ -339,7 +372,7 @@
     .headerConteiner{
        
         background: transparent;
-        background-image: url('../public/bg-pattern-intro.svg');
+        background-image: url('../public/blogr/bg-pattern-intro.svg');
         background-size:cover; 
         background-repeat: no-repeat;
         background-position:right;
@@ -359,17 +392,18 @@
         height: 40px;
         width: auto;
     }
-    #menu{
+    
+    #menuDiv{
         display: block;
         margin: 10px;
         height: 30px;
     }
-    #close{
+    #closeDiv{
         margin: 10px;
         height: 30px;
         display: none;
     }
-    #close:hover{
+    #closeDiv:hover{
         cursor: pointer;
     }
     #menu:hover{
@@ -379,14 +413,14 @@
         height: 30px;
         width: 30px;
     }
-    .headerImg{
+    .headerimg{
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin: 10px;
     }
 
-    #list{
+    .list{
         display: none;
         background-color: #fafafa;
         height: auto;
@@ -455,8 +489,13 @@
     }
 
     .secondHeader h1{
-        margin-top: 70px;
+        margin-top: 20px;
         font-size: 30px;
+        text-align: center;
+    }
+
+    .secondHeader p{
+        text-align: center;
     }
 
 
@@ -470,7 +509,7 @@
         flex-direction:column-reverse;
         margin-bottom: 20vh;
     }
-    #illustration-editor-desktop{
+    #illustrationEditorDesktop{
         position: relative;
         height: 70vh;
         transform: translate(-0vw);
@@ -488,7 +527,7 @@
         
     }
     
-    #illustration-phones{
+    #illustrationPhones{
         
         transform: translateY(-30vh);
         height: 60vh;
