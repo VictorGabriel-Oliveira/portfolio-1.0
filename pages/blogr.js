@@ -80,12 +80,12 @@ export default function blogr (){
                         <div id={style.closeDiv}>
                             <Image id={style.close}onClick={(item) =>{
                                 closeOnClick(item)
-                            }} src="/blogr/icon-close." height="60" width="60"/>
+                            }} src="/blogr/icon-close.svg" height="60" width="60"/>
                         </div>
                         
                     </div>
                     
-                    <div className={style.list} >
+                    <div className={style.list} id="list">
                         
                         <div className={style.listItens} >
                             <div className={style.listItensContein}> 
@@ -137,7 +137,7 @@ export default function blogr (){
 
                         <div className={style.headerBtns ,style.headerBtnsMenu}>
                             <button className={style.btn}>Loguin</button>
-                            <button className={style.btn} >Sing Up</button>
+                            <button className={style.btn} id={style.lastBtn}>Sing Up</button>
                         </div>
                         
 
@@ -194,7 +194,7 @@ export default function blogr (){
             <div className={style.secondContent}>
                 <div id={style.phones}>
                     <div id={style.illustrationPhones}>
-                        <Image src="/blogr/illustration-phones.svg" height="400px" width="400"/>
+                        <Image id={style.phone} src="/blogr/illustration-phones.svg" height="400px" width="400"/>
                     </div>
                     <div className={style.phoneText}>
                         <h2>

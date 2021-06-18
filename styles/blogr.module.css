@@ -125,6 +125,8 @@
     position: fixed;
 }
 
+
+
 #productList li:hover{
     font-weight: bold;
     cursor: pointer;
@@ -586,5 +588,25 @@
 
     .footer img{
         margin-top: 40px;
+    }
+}
+
+@media (max-width : 1000px  ), (max-height: 740px){
+
+    #illustrationEditorDesktop{
+        height: auto;
+    }
+    #phones{
+        height: 750px;
+    }
+    
+    #illustrationPhones{        
+        transform: translateY(-20vh);
+        height: 60vh;
+        background-size: cover;        
+    }
+    #lastBtn{
+        background-color: #ff4457;
+        color: #fafafa;
     }
 }
