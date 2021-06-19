@@ -83,10 +83,15 @@ export default function room (){
                     < div className={style.header}>
 
                         <Image id={style.logo}  className={style.logo} src="/images/logo.svg" height="40" width="40"/>
-                        <Image  onClick={()=>{menu('open')}} id={style.hamburger} src="/images/icon-hamburger.svg" height="30" width="30" />
+                       <div id={style.hamburger}>
+                            <Image  onClick={()=>{menu('open')}}  src="/images/icon-hamburger.svg" height="30" width="30" />
+                       </div>
                     
                         <div id={style.list}>
-                            <Image id={style.close} onClick={()=>{menu('close')}} src="/images/icon-close.svg" height="10" width="10"/>
+                            <div id={style.close}>
+                                <Image  onClick={()=>{menu('close')}} src="/images/icon-close.svg" height="10" width="10"/>
+                            </div>
+                
                             <p>home</p>
                             <p>shop</p>
                             <p>about</p>
@@ -148,7 +153,7 @@ export default function room (){
                             what custumers want for their home and office
                         </p>
                     </div>
-                    <h6>SHOP NOW <Image src="/images/icon-arrow.svg" height="10" width="10"/></h6>
+                    <h6 id ={style.shopNowClick}>SHOP NOW <Image src="/images/icon-arrow.svg" height="10" width="30"/></h6>
                     <div className={style.btns} >
                     <div onClick={()=>{pageMove('left')}} className={style.btn}><Image src="/images/icon-angle-left.svg" height="10" width="10"/></div>
                     <div  onClick={()=>{pageMove('rigth')}} className={style.btn} ><Image src="/images/icon-angle-right.svg" height="10" width="10"/></div>
@@ -160,7 +165,7 @@ export default function room (){
             </div>
 
             <div className={style.secondContent}>
-                <div className={style.fisthAboutImg}>
+                <div id={style.fisthAboutImg}>
                     
                 </div>
                 <div className={style.about}>
