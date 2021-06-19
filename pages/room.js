@@ -83,10 +83,10 @@ export default function room (){
                     < div className={style.header}>
 
                         <Image id={style.logo}  className={style.logo} src="/images/logo.svg" height="30" width="30"/>
-                        <Image  onClick={()=>{menu('open')}} id={style.hamburger} src="/images/icon-hamburger.svg" height="" width=""/>
+                        <Image  onClick={()=>{menu('open')}} id={style.hamburger} src="/images/icon-hamburger.svg" height="40" width="40" />
                     
                         <div id={style.list}>
-                            <Image id={style.close} onClick={()=>{menu('close')}} src="/images/icon-close.svg" height="" width=""/>
+                            <Image id={style.close} onClick={()=>{menu('close')}} src="/images/icon-close.svg" height="10" width="10"/>
                             <p>home</p>
                             <p>shop</p>
                             <p>about</p>
