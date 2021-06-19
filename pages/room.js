@@ -82,8 +82,8 @@ export default function room (){
                 <div id={style.imageHero} className={style.imageHero1}>
                     < div className={style.header}>
 
-                        <Image id={style.logo}  className={style.logo} src="/images/logo.svg" height="30" width="30"/>
-                        <Image  onClick={()=>{menu('open')}} id={style.hamburger} src="/images/icon-hamburger.svg" height="40" width="40" />
+                        <Image id={style.logo}  className={style.logo} src="/images/logo.svg" height="40" width="40"/>
+                        <Image  onClick={()=>{menu('open')}} id={style.hamburger} src="/images/icon-hamburger.svg" height="30" width="30" />
                     
                         <div id={style.list}>
                             <Image id={style.close} onClick={()=>{menu('close')}} src="/images/icon-close.svg" height="10" width="10"/>

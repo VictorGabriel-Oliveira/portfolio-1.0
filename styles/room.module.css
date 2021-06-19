@@ -197,82 +197,49 @@
     background-position: center;
     background-size: cover;
 }
-@media(max-width : 600px){
-    .shopNow h1{
-        font-family: Spartan;
-        font-weight: 700;
-        font-size: 19px;
-        margin-bottom: 5px;
-    }
-    
-    .shopNow p{
-        font-size: 12px;
-        margin: 2px;
-        color:  hsl(0, 0%, 63%);
-    }
-
-    .about h2{
-        letter-spacing: 5px;
-        font-size: 12px;
-        margin-bottom:5px ;
-        margin-left: 3vw;
-        font-family: Spartan;
-        font-weight: 700;
-    }
-    
-    .about p{
-        font-size: 12px;
-        color: hsl(0, 0%, 63%);
-    }
-}
 
 @media (max-width : 500px) {
-    
-    .firstContent{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
 
-    #imageHero{
-        width: 100%;
-        height: 375px;
-        
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     .header{
-        width: 100vw;
-        margin-top: 0px;
-        padding: 0px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
-        font-family: Spartan;
-        
-     
+        align-items: center;
+        width: 100%;
     }
+    
+   .firstContent{
+       display: flex;
+       flex-direction: column;
+       height: auto;
+   }
+
+    #imageHero{
+        width: 100%;
+        height: 50vh;
+    }
+    .shopNow{
+        height: auto;
+    }
+    
     
 
    
     #list{
+        position: relative;
         margin: 0%;
         padding: 0%;
         display: none;
         background-color: white;
-        width:2900px ;
+        width: 100%;
         height: 100px;
         justify-content: space-evenly;
         color: rgb(0, 0, 0);
         
+        
     }
     #close{
         margin-left: 10px;
-        
-        
-       
         
     }
     #list p {
@@ -285,106 +252,41 @@
     #list img:hover {
         cursor: pointer;
     }
-    .shopNow{
-        padding-top: 60px;
-        width: 100vw;
-        
-    }
-
-    .shopNow h6 img{
-        width: 20px;
-        
-    }
+    
+    
     .btns{
         position: relative;
-        top: -448px;
-        right: -240px;
-        height:80px;
+        top: -392px;
+        right: -200px;
+        height:40px;
 
     }
-    .btn{
-        height: 60px;
-        width: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
     .btn img{
-        height: 40px;
-        width: 40px;
-    }
-
-    .shopNow h1{
-        font-family: Spartan;
-        font-weight: 700;
-        font-size: 30px;
-        margin-bottom: 10px;
+        height: 30px;
+        width: 20px;
     }
     
-    .shopNow p{
-        margin: 0px;
-        color:  hsl(0, 0%, 63%);
-    }
-    
-    .shopNow h6{
-        margin-top: 30px;
-        font-size: 14px;
-        margin-left: 3px;
-        letter-spacing: 5px;
-        
-    }
-
-    #shopNowConteiner1{
-
-        margin-left: 3px;
-        
-    }
-    #shopNowConteiner2{
-        
-        margin-left: 3px;
-        
-    }
-    #shopNowConteiner3{
-        
-        margin-left: 3px;
-        
-    }
-    
-    
-
     .secondContent{
+        display: flex;
         flex-direction: column;
     }
-    .fisthAboutImg{
-        width: 100vw;
-    }
-    .about{
-        margin: 0;
-        height: auto;
-        width: auto;
-        padding: 10px;
-    }
 
-    .about h2{
-        letter-spacing: 5px;
-        font-size: 14px;
-        margin-bottom:10px ;
-        margin-left: 5px;
-        font-family: Spartan;
-        font-weight: 700;
+    .shopNow{
+        height: 400px;
+        width: 100%;
+        
         
     }
-    
-    .about p{
-        margin-left: 2px;
-        margin-bottom: 5px;
-        color: hsl(0, 0%, 63%);
+    .fisthAboutImg{
+        width: 100%;
     }
-    
+
+    .about{
+        width: 100%;
+    }
+
     #secondAboutImg{
-        width: 100vw;
+        width: 100%;
     }
-    
 
 }
