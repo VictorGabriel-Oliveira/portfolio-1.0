@@ -82,10 +82,10 @@ export default function room (){
                 <div id={style.imageHero} className={style.imageHero1}>
                     < div className={style.header}>
 
-                        <Image id={style.logo}  className={style.logo} src="/images/logo.svg" height="40" width="40"/>
-                       <div id={style.hamburger}>
-                            <Image  onClick={()=>{menu('open')}}  src="/images/icon-hamburger.svg" height="30" width="30" />
-                       </div>
+                        <Image id={style.logo}  id={style.logo} src="/images/logo.svg" height="40" width="40"/>
+                        <div id={style.hamburger}>
+                                <Image  onClick={()=>{menu('open')}}  src="/images/icon-hamburger.svg" height="30" width="30" />
+                        </div>
                     
                         <div id={style.list}>
                             <div id={style.close}>
@@ -98,7 +98,11 @@ export default function room (){
                             <p>contact</p>
 
                         </div>
-                    </div>   
+                    </div>  
+                    <div className={style.btnsHeader} >
+                        <div onClick={()=>{pageMove('left')}} className={style.btnHeader}><Image src="/images/icon-angle-left.svg" height="10" width="10"/></div>
+                        <div  onClick={()=>{pageMove('rigth')}} className={style.btnHeader} ><Image src="/images/icon-angle-right.svg" height="10" width="10"/></div>
+                    </div> 
                 </div>
                 <div className={style.shopNow}>
                     <div id={style.shopNowConteiner1}>
@@ -155,9 +159,9 @@ export default function room (){
                     </div>
                     <h6 id ={style.shopNowClick}>SHOP NOW <Image src="/images/icon-arrow.svg" height="10" width="30"/></h6>
                     <div className={style.btns} >
-                    <div onClick={()=>{pageMove('left')}} className={style.btn}><Image src="/images/icon-angle-left.svg" height="10" width="10"/></div>
-                    <div  onClick={()=>{pageMove('rigth')}} className={style.btn} ><Image src="/images/icon-angle-right.svg" height="10" width="10"/></div>
-                </div>
+                        <div onClick={()=>{pageMove('left')}} className={style.btn}><Image src="/images/icon-angle-left.svg" height="10" width="10"/></div>
+                        <div  onClick={()=>{pageMove('rigth')}} className={style.btn} ><Image src="/images/icon-angle-right.svg" height="10" width="10"/></div>
+                    </div> 
             </div>
                 
                 
