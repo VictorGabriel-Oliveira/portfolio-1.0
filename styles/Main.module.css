@@ -23,7 +23,7 @@
 .about{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 40vw;
     height: 100vh;
     margin-left: 30px;
     justify-content: center; 
@@ -43,4 +43,18 @@
 
 .about p{
     margin-bottom: 2px;
+}
+
+
+@media (max-width:600px){
+    .conteiner{
+        flex-direction: column;
+        width: 108vw;
+    }
+    .img{
+        width: 108vw;
+        height: 100vh;
+    }
+
+    .about{width: 100vw;}
 }

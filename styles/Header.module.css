@@ -40,3 +40,12 @@
 .headerConteiner li{
     list-style: none;
 }
+
+@media (max-width:600px) {
+    .header{
+        width: 108vw;
+    }
+    .headerConteiner ul{
+        width: 108vw;
+    }
+}

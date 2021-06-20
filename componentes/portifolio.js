@@ -4,12 +4,13 @@ export default function Portifolio(){
     return(
         <div className={style.conteiner}>
             <h2>Portifolio</h2>
+
+            <h3>PROJETO #1</h3>
             <div className={style.projetos}>
                 <div className={style.projeto}>
-                    
-                    <Image src="/bloggr.png" height="auto" width="auto"/>
-                    
+                     <Image src="/bloggr.png" height="600" width="300"/>
                     <div className={style.about} >
+                        
                         <h1>Blogr</h1>
                         <h4>Projeto criado usando :</h4>
                         <p>HTML , CSS e Javascript.</p>
@@ -17,9 +18,9 @@ export default function Portifolio(){
                         <p><a href="/blogr"> ir para o projeto</a></p>
                     </div>
                 </div>
-
+            <h3>PROJETO #2</h3>
                 <div className={style.projeto}>
-                    <Image src="/room.png" height="auto" width="auto"/>
+                    <Image src="/room.png" height="300" width="600"/>
                     <div className={style.about} >
                         <h1>Room</h1>
                         <h4>Projeto criado usando :</h4>

@@ -168,6 +168,121 @@
     background-repeat: no-repeat;
 }
 
+@media (max-width:840px) and (max-height:540px){
+    .firstContent{
+        flex-direction: column;
+        
+    }
+    #imageHero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        width: 103vw;
+        
+    
+        
+    }
+
+    .imageHero1{
+        background-image:  url('../public/images/mobile-image-hero-1.jpg');
+    }
+    .imageHero2{
+        background-image:  url('../public/images/mobile-image-hero-2.jpg');
+    }
+    .imageHero3{
+        background-image:  url('../public/images/mobile-image-hero-3.jpg');
+    }
+
+    .header{
+        width: 100%;
+        
+    }
+    #hamburger{
+        display:  flex ;
+   }
+
+    #list{
+        position: relative;
+        display: none;
+        background-color: white;
+        width:9900vw;
+        height: 100px;
+        justify-content: space-around;
+        top: -10px;
+        color: rgb(0, 0, 0);
+        
+        
+    }
+
+    #close{
+        margin-left: 10px;
+        
+    }
+
+    .btnsHeader{
+        position: relative;
+        display: flex;
+        margin: 0;
+        align-self: flex-end;
+        
+    }
+
+    .btnHeader{
+        margin: 0;
+        display: flex;
+        height: 80px;
+        width: 80px;
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    #shopNowConteiner1{
+        height: 320px;
+        width: 100vw;
+    }
+    #shopNowConteiner2{
+        height: 320px;
+        width: 100vw;
+    }
+    #shopNowConteiner3{
+        height: 320px;
+        width: 100vw;
+    }
+
+    #shopNowClick{
+        
+    }
+
+    .btns{
+        display: none;
+    
+    }
+
+
+
+    .secondContent{
+        flex-direction: column;
+    }
+
+    #fisthAboutImg{
+        width: 103%;
+        height: 100vh;
+    }
+
+    .about{
+        width: 100%;
+        height: auto;
+    }
+
+    #secondAboutImg{
+        width: 103%;
+        height: 100vh;
+    }
+}
+
 @media (max-width:600px){
     .firstContent{
         flex-direction: column;

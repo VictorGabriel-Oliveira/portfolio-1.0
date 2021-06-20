@@ -32,3 +32,17 @@
     height: 40vh;
     width: 20vw;
 }
+
+@media (max-width: 600px) {
+    .conteiner{
+        width:108vw;
+    }
+    .lists{
+        flex-direction: column;
+    }
+
+    .listIten img{
+        height: 40vh;
+        width: 60vw;
+    }
+}

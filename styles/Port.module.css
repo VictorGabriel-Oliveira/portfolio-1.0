@@ -5,34 +5,50 @@
     background-color: rgb(41,41,41);
     color: #f5f5f5;
     font-family: Spartan;
+    width: 100vw;
     align-items: center;
+    
     
 }
 .projetos{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin: 20px;
     padding: 10px;
+    height: 150vh;
 }
 
 .projeto{
+    display: flex;
+    justify-content: space-around;
     background-color: aliceblue;
     color: black;
     margin-right: 20px;
     padding: 10px;
+    width: 90vw;
 }
-
-.projeto img{
-    height: auto;
-    width: 25vw;
-
-}
-
 
 .projeto a {
     color: blue;
 }
 .projeto a:hover{
     color: rgb(41,41,41);
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .conteiner{
+        width:108vw;
+    }
+    .projeto{
+        flex-direction: column;
+    }
+   
 }

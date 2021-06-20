@@ -18,9 +18,6 @@ function Main (){
                 <p>necessidades. Entre em contato comigo hoje para saber o que</p>
                 <p>posso fazer por você</p>
 
-                
-
-
             </div>
         </div>
     )
