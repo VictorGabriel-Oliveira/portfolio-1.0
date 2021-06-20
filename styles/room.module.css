@@ -178,7 +178,7 @@
         flex-direction: column;
         justify-content: space-between;
         height: 60vh;
-        width: 100vw;
+        width: 103vw;
         
     
         
@@ -268,7 +268,7 @@
     }
 
     #fisthAboutImg{
-        width: 100%;
+        width: 103%;
     }
 
     .about{
@@ -277,6 +277,6 @@
     }
 
     #secondAboutImg{
-        width: 100%;
+        width: 103%;
     }
 }
