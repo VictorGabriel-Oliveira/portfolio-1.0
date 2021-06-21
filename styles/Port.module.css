@@ -5,6 +5,7 @@
     background-color: rgb(41,41,41);
     color: #f5f5f5;
     font-family: Spartan;
+    height: 200vh;
     width: 100vw;
     align-items: center;
     
@@ -46,6 +47,7 @@
 @media (max-width: 600px) {
     .conteiner{
         width:108vw;
+        height: 1750px;
     }
     .projeto{
         flex-direction: column;

@@ -14,6 +14,13 @@
 .conteiner h2{
     letter-spacing: 5px;
 }
+
+.habilts{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 20px;
+}
 .lists{
     display: flex;
     flex-direction: row;

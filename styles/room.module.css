@@ -14,7 +14,7 @@
 }
 
 #imageHero{
-    height: 60vh;
+    height: 61vh;
     width: 60vw;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,7 +142,7 @@
     background-repeat: no-repeat;
 }
 .about{
-    width: 40vw;
+    width: 43vw;
     height: 40vh;
     margin: 10px;
     justify-content: center;
@@ -252,10 +252,7 @@
         width: 100vw;
     }
 
-    #shopNowClick{
-        
-    }
-
+   
     .btns{
         display: none;
     

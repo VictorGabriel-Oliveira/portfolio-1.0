@@ -13,18 +13,18 @@ export default function Portifolio(){
                         
                         <h1>Blogr</h1>
                         <h4>Projeto criado usando :</h4>
-                        <p>HTML , CSS e Javascript.</p>
+                        <p>React.js e Next.js</p>
                         <p>Responsivo.</p>
                         <p><a href="/blogr"> ir para o projeto</a></p>
                     </div>
                 </div>
             <h3>PROJETO #2</h3>
                 <div className={style.projeto}>
-                    <Image src="/room.png" height="300" width="600"/>
+                    <Image src="/room.png" height="400" width="700"/>
                     <div className={style.about} >
                         <h1>Room</h1>
                         <h4>Projeto criado usando :</h4>
-                        <p>HTML , CSS e Javascript.</p>
+                        <p>React.js e Next.js</p>
                         <p>Responsivo.</p>
                         <p><a href="/room">ir para o projeto</a></p>
                     </div>

@@ -4,6 +4,19 @@ function Habilities(){
     return (
         <div className={style.conteiner}>
             <h1>Minhas habilidades</h1>
+            <div className={style.habilts}>
+                <p>
+                    Trabalho com desenvolvimento Web tanto no front-end  como no back-end .
+                </p>
+                <p>
+                    Tenho um bom conhecimento para definir qual tecnologia se encaixa mais para suas nescessidades. 
+                </p>
+                <p>
+                    Pego designs prontos e transformo em codigo. 
+                </p>
+            </div>
+
+            <h1>Ferramentas que utilizo</h1>
             <h2>Front-End</h2>
             <ul className={style.lists}>
                 
