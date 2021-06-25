@@ -6,7 +6,7 @@ export default function footer (){
                 <h2>contatos</h2>
                 <ul>
                     <h3>Watsapp</h3>
-                    <p>(63)99999999999</p>
+                    <p>(63) 8451-4532</p>
                 </ul>
             </div>
         </div>
