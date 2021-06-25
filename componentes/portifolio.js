@@ -29,6 +29,19 @@ export default function Portifolio(){
                         <p><a href="/room">ir para o projeto</a></p>
                     </div>
                 </div>
+
+                <h3>PROJETO #3</h3>
+                <div className={style.projeto}>
+                    <Image src="/letmeask.png" height="400" width="700"/>
+                    <div className={style.about} >
+                        <h1>letmeask</h1>
+                        <h4>Projeto criado usando :</h4>
+                        <p>React.js , Sass e Firebase</p>
+                        <p><a href="https://letmeask-9865c.web.app/">ir para o projeto</a></p>
+                    </div>
+                </div>
+                
+
             </div>
         </div>
     )

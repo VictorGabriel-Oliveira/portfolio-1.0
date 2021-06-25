@@ -1,6 +1,9 @@
 .conteiner{
     display: flex;
+    flex-direction: column;
     background-color:rgb(41, 41, 41);
+    align-items: center;
+    justify-content: center;
     color: #f5f5f5;
     width: 100vw;
 }
@@ -12,7 +15,9 @@
 
 @media (max-width:650px) {
     .conteiner{
-        width: 108vh;
-        flex-direction: column;
+        width: 108vw;
+        height: 35vh;
+        
+       
     }
 }
