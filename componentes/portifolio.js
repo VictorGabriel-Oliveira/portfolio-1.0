@@ -13,7 +13,7 @@ export default function Portifolio(){
                         
                         <h1>Blogr</h1>
                         <h4>Projeto criado usando :</h4>
-                        <p>React.js e Next.js</p>
+                        <p>Html, Css, Javascript</p>
                         <p>Responsivo.</p>
                         <p><a href="/blogr"> ir para o projeto</a></p>
                     </div>
@@ -24,7 +24,7 @@ export default function Portifolio(){
                     <div className={style.about} >
                         <h1>Room</h1>
                         <h4>Projeto criado usando :</h4>
-                        <p>React.js e Next.js</p>
+                        <p>Html, Css, Javascript</p>
                         <p>Responsivo.</p>
                         <p><a href="/room">ir para o projeto</a></p>
                     </div>
