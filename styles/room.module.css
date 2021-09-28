@@ -364,14 +364,17 @@
     #shopNowConteiner1{
         height: 320px;
         width: 100vw;
+        margin-left: 5px;
     }
     #shopNowConteiner2{
         height: 320px;
         width: 100vw;
+        margin-left: 5px;
     }
     #shopNowConteiner3{
         height: 320px;
         width: 100vw;
+        margin-left: 5px;
     }
 
     #shopNowClick{
