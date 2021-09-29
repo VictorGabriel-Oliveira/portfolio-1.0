@@ -40,7 +40,16 @@ export default function Portifolio(){
                         <p><a href="https://letmeask-9865c.web.app/">ir para o projeto</a></p>
                     </div>
                 </div>
-                
+                <h3>PROJETO #4</h3>
+                <div className={style.projeto}>
+                    <Image src="/loopstudios.jpg" height="700" width="400"/>
+                    <div className={style.about} >
+                        <h1>Loopstudios</h1>
+                        <h4>Projeto criado usando :</h4>
+                        <p>React</p>
+                        <p><a href="https://victorgabriel-oliveira.github.io/">ir para o projeto</a></p>
+                    </div>
+                </div>
 
             </div>
         </div>
