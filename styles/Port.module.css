@@ -47,7 +47,7 @@
 @media (max-width: 600px) {
     .conteiner{
         width:108vw;
-        height: 2200px;
+        height:450vh;
     }
     .projeto{
         flex-direction: column;
