@@ -15,7 +15,7 @@ export default function Portifolio(){
                         <h4>Projeto criado usando :</h4>
                         <p>Html, Css, Javascript</p>
                         <p>Responsivo.</p>
-                        <p><a href="/blogr"> ir para o projeto</a></p>
+                        <p><a href="https://dreamy-kilby-fc6879.netlify.app/"> ir para o projeto</a></p>
                     </div>
                 </div>
             <h3>PROJETO #2</h3>
